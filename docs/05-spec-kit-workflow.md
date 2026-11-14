@@ -8,8 +8,8 @@ from an empty folder, in order, with the prompts used. Everything ran in
 
 ```mermaid
 flowchart LR
-    A[0. Setup] --> B[1. Constitution] --> C[2. Specify] --> D[3. Clarify] --> E[4. Plan]
-    E --> F[5. Tasks] --> G[6. Analyze] --> H[7. Implement] --> I[8. Analyze again] --> J[9. Review + publish]
+    A["Setup"] --> B["Constitution"] --> C["Specify"] --> D["Clarify"] --> E["Plan"]
+    E --> F["Tasks"] --> G["Analyze"] --> H["Implement"] --> I["Analyze again"] --> J["Review and publish"]
 ```
 
 ## 0. Setup

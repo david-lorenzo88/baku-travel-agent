@@ -20,7 +20,6 @@ consume credits) and a **usability check** with real people. Full scenario list:
 | `test_validate_agent.py` | 20 | Every rule of the YAML validator |
 | `test_shared_sync.py` | 6 | Shared catalog and pricing copies match |
 
-GitHub Actions runs the same checks on every push ([`.github/workflows/tests.yml`](../.github/workflows/tests.yml)).
 
 ## 2. Test-chat conversations (Copilot Studio)
 

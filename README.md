@@ -87,13 +87,15 @@ model — and the catalog is fictional sample data with freely licensed Wikimedi
 
 ```mermaid
 flowchart LR
-    U[Traveler] -->|chat| A[Copilot Studio agent<br/>Microsoft Copilot harness]
-    A --> I[Global instructions<br/>flow, privacy, AZN, no booking]
-    A --> S1[Skill: baku-trip-catalog<br/>trip_plan.py]
-    A --> S2[Skill: confirm-trip-plan<br/>confirm.py]
-    A --> S3[Skill: export-trip-plan-pdf<br/>make_pdf.py + photos]
-    A --> K[Knowledge: evisa.gov.az,<br/>azerbaijan.travel]
-    S1 & S2 & S3 --> C[(catalog.json +<br/>pricing.py, bundled)]
+    U["Traveler"] -->|chat| A["Copilot Studio agent<br/>(Microsoft Copilot harness)"]
+    A --> I["Global instructions<br/>flow, privacy, AZN, no booking"]
+    A --> S1["Skill: baku-trip-catalog<br/>trip_plan.py"]
+    A --> S2["Skill: confirm-trip-plan<br/>confirm.py"]
+    A --> S3["Skill: export-trip-plan-pdf<br/>make_pdf.py + photos"]
+    A --> K["Knowledge<br/>evisa.gov.az, azerbaijan.travel"]
+    S1 --> C[("catalog.json + pricing.py<br/>bundled in each skill")]
+    S2 --> C
+    S3 --> C
 ```
 
 - **No topics, no Power Fx, no connectors.** The agent runs on the agentic-loop harness; the plan
