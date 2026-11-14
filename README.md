@@ -1,5 +1,7 @@
 # Baku Travel Agent — Copilot Studio demos from the Baku AI Summit Masterclass
 
+![Baku AI Summit Hackathon Battle — Travel agent for Baku travelers: an illustrated poster of the two presenters, David Lorenzo and Lee Stott, as knights in front of Baku landmarks (Maiden Tower, Flame Towers, Heydar Aliyev Center)](docs/images/baku-ai-summit-hackathon-battle.jpg)
+
 This repository contains **David Lorenzo's demos** from the **Masterclass at the Baku AI Summit on
 13 November 2026**. During the session we ran a live hackathon on a topic chosen by the audience:
 they proposed ideas, voted, and **"Baku Travel Agent"** won — an assistant that helps visitors
