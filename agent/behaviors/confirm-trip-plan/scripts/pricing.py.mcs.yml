@@ -1,0 +1,4 @@
+mcs.metadata:
+  componentName: scripts/pricing.py
+  description: This knowledge source searches information contained in scripts/pricing.py
+  schemaName: catmgr_BakuTravelPlanner.file.pricingpy_FUPkm

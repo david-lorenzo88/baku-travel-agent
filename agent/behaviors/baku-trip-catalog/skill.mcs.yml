@@ -1,0 +1,8 @@
+mcs.metadata:
+  componentName: baku-trip-catalog
+  description: "Plans a Baku trip: collects check-in, check-out and number of travelers; lists hotels and activities from the catalog with photos and AZN prices; adds, replaces or removes them; and recalculates and shows the trip plan and grand total. Use for any trip-detail, hotel, activity or plan-total request before confirmation."
+  schemaName: catmgr_BakuTravelPlanner.skill.bakutripcatalog_LMA
+  bundle: catmgr_BakuTravelPlanner.file.bakutripcatalogzip_ilguy
+  manifestSchemaName: catmgr_BakuTravelPlanner.file.skillmd_VJzEq
+kind: InlineAgentSkill
+skillFolderName: baku-trip-catalog

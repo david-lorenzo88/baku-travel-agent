@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Copilot Studio CLI-managed connection state (never hand-edited, may hold environment details)
+agent/.mcs/
+**/.mcs/
+
+# Generated PDFs (test fixtures are kept)
+*.pdf
+!tests/fixtures/**/*.pdf
+
+# Local Claude settings
+.claude/settings.local.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/

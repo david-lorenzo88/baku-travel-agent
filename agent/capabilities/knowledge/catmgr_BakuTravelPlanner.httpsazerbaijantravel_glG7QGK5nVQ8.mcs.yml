@@ -1,0 +1,7 @@
+mcs.metadata:
+  componentName: https://azerbaijan.travel
+  description: "Official Azerbaijan Tourism Board site: Baku sights, neighborhoods, events, transport and practical travel information for visitors."
+kind: KnowledgeSourceConfiguration
+source:
+  kind: WebsiteKnowledgeSource
+  siteUrl: "https://azerbaijan.travel"

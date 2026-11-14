@@ -1,0 +1,4 @@
+mcs.metadata:
+  componentName: references/catalog.json
+  description: This knowledge source searches information contained in references/catalog.json
+  schemaName: catmgr_BakuTravelPlanner.file.catalogjson_mDqPn

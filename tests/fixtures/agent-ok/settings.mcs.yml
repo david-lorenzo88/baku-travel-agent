@@ -1,0 +1,13 @@
+displayName: "Fixture Agent"
+schemaName: "catmgr_FixtureAgent"
+configuration:
+  authoringModel: CliCopilot
+  recognizer:
+    kind: CLICopilotRecognizer
+  agentSettings:
+    instructions:
+      segments:
+        - kind: StaticSegment
+          value: "Fixture instructions."
+template: cliagent-1.0.0
+language: 1033

@@ -1,0 +1,7 @@
+pytest
+reportlab
+pypdf
+Pillow
+PyYAML
+jsonschema
+matplotlib

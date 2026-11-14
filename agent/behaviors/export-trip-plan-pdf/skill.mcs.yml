@@ -1,0 +1,8 @@
+mcs.metadata:
+  componentName: export-trip-plan-pdf
+  description: Exports a confirmed Baku trip plan as a downloadable PDF with the holder, dates, hotel, activities with photos, line totals and grand total. Use when the traveler asks for the plan as a PDF, document or download.
+  schemaName: catmgr_BakuTravelPlanner.skill.export-trip-plan-pdf
+  bundle: catmgr_BakuTravelPlanner.file.exporttripplanpdfzip_G3RRG
+  manifestSchemaName: catmgr_BakuTravelPlanner.file.skillmd_UqMes
+kind: InlineAgentSkill
+skillFolderName: export-trip-plan-pdf

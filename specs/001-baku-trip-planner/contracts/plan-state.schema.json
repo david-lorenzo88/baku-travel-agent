@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://baku-travel-agent.local/contracts/plan-state.schema.json",
+  "title": "TripPlan (plan state)",
+  "description": "Plan state passed between the agent and the skill scripts. Only trip, hotel_id, activity_ids, status, holder and confirmation are read as input; lines, grand_total, names and prices are always recomputed from the catalog.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "currency", "trip", "hotel_id", "activity_ids", "status"],
+  "properties": {
+    "schema_version": { "const": "1" },
+    "catalog_version": { "type": "string" },
+    "currency": { "const": "AZN" },
+    "trip": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["check_in", "check_out", "travelers"],
+      "properties": {
+        "check_in": { "type": "string", "format": "date" },
+        "check_out": { "type": "string", "format": "date" },
+        "travelers": { "type": "integer", "minimum": 1, "maximum": 10 },
+        "nights": { "type": "integer", "minimum": 1, "maximum": 30 }
+      }
+    },
+    "hotel_id": { "type": ["string", "null"], "pattern": "^htl-[a-z0-9-]+$" },
+    "activity_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^act-[a-z0-9-]+$" }
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "item_id", "name", "unit_price", "quantity", "quantity_label", "line_total"],
+        "properties": {
+          "kind": { "enum": ["hotel", "activity"] },
+          "item_id": { "type": "string" },
+          "name": { "type": "string" },
+          "unit_price": { "$ref": "#/$defs/money" },
+          "quantity": { "type": "integer", "minimum": 1 },
+          "quantity_label": { "type": "string" },
+          "line_total": { "$ref": "#/$defs/money" }
+        }
+      }
+    },
+    "grand_total": { "$ref": "#/$defs/money" },
+    "status": { "enum": ["draft", "confirmed"] },
+    "holder": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["full_name", "email", "phone"],
+      "properties": {
+        "full_name": { "type": "string", "minLength": 2, "maxLength": 100 },
+        "email": { "type": "string", "maxLength": 254 },
+        "phone": { "type": "string", "maxLength": 25 }
+      }
+    },
+    "confirmation": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["reference", "confirmed_at"],
+      "properties": {
+        "reference": { "type": "string", "pattern": "^BAK-[0-9]{8}-[A-HJ-NP-Z2-9]{6}$" },
+        "confirmed_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "confirmed" } } },
+      "then": { "required": ["holder", "confirmation"], "properties": { "hotel_id": { "type": "string" } } }
+    }
+  ],
+  "$defs": {
+    "money": { "type": "string", "pattern": "^[0-9]+\\.[0-9]{2}$" }
+  }
+}

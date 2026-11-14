@@ -1,0 +1,8 @@
+mcs.metadata:
+  componentName: demo-skill
+  description: Demo skill used by the validator tests.
+  schemaName: catmgr_FixtureAgent.skill.demoskill_Ab1
+  bundle: catmgr_FixtureAgent.file.demoskillzip_Ab1cd
+  manifestSchemaName: catmgr_FixtureAgent.file.skillmd_Ef2gh
+kind: InlineAgentSkill
+authoringSource: Upload

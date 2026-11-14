@@ -1,0 +1,8 @@
+mcs.metadata:
+  componentName: confirm-trip-plan
+  description: 'Confirms a Baku trip plan: asks for the plan holder''s full name, email and phone, validates them, shows the full plan summary, and confirms the plan only after the traveler explicitly agrees, issuing a reference. Use when the traveler wants to continue to confirmation or finalize the plan.'
+  schemaName: catmgr_BakuTravelPlanner.skill.confirm-trip-plan
+  bundle: catmgr_BakuTravelPlanner.file.confirmtripplanzip_9yeYg
+  manifestSchemaName: catmgr_BakuTravelPlanner.file.skillmd_ceQmR
+kind: InlineAgentSkill
+skillFolderName: confirm-trip-plan

@@ -1,0 +1,186 @@
+{
+  "catalog_version": "2026-11-13",
+  "currency": "AZN",
+  "sample_data": true,
+  "note": "Sample catalog for demonstration. Hotel names are fictional; prices are indicative samples, not quotes.",
+  "hotels": [
+    {
+      "id": "htl-caspian-courtyard",
+      "name": "Caspian Courtyard Hotel",
+      "neighborhood": "Old City (İçərişəhər)",
+      "description": "Stone-walled rooms around a quiet courtyard inside the UNESCO-listed Old City, a short walk from the Maiden Tower.",
+      "price_per_person_per_night": "60.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Multani_caravanseray_in_Baku.jpg/960px-Multani_caravanseray_in_Baku.jpg",
+          "file": "htl-caspian-courtyard.jpg",
+          "alt": "Stone caravanserai entrance in Baku Old City",
+          "credit": "Interfase, CC BY-SA 3.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Multani_caravanseray_in_Baku.jpg"
+        }
+      ]
+    },
+    {
+      "id": "htl-fountain-square-suites",
+      "name": "Fountain Square Suites",
+      "neighborhood": "Fountain Square",
+      "description": "Modern suites on the pedestrian heart of Baku, surrounded by cafés, shops and Nizami Street.",
+      "price_per_person_per_night": "85.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Fountains_Square%2C_Baku_01.jpg/960px-Fountains_Square%2C_Baku_01.jpg",
+          "file": "htl-fountain-square-suites.jpg",
+          "alt": "Fountains Square, Baku",
+          "credit": "Bernard Gagnon, CC BY 4.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Fountains_Square,_Baku_01.jpg"
+        }
+      ]
+    },
+    {
+      "id": "htl-boulevard-bay",
+      "name": "Boulevard Bay Hotel",
+      "neighborhood": "Baku Boulevard",
+      "description": "Sea-view rooms on the Caspian waterfront promenade, steps from the Boulevard park and the Carpet Museum.",
+      "price_per_person_per_night": "110.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Baku_Boulevard_Park.jpg/960px-Baku_Boulevard_Park.jpg",
+          "file": "htl-boulevard-bay.jpg",
+          "alt": "Baku Boulevard park by the Caspian Sea",
+          "credit": "Antoloji, CC BY-SA 4.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Baku_Boulevard_Park.jpg"
+        }
+      ]
+    },
+    {
+      "id": "htl-flame-view-residence",
+      "name": "Flame View Residence",
+      "neighborhood": "Flame Towers / Highland Park",
+      "description": "Upper-floor apartments near Highland Park with views of the city and the illuminated Flame Towers.",
+      "price_per_person_per_night": "140.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/BAKU_AT_NIGHT_.RED_TOWERS.%D7%91%D7%90%D7%A7%D7%95_%D7%91%D7%9C%D7%99%D7%9C%D7%94_%D7%9E%D7%92%D7%93%D7%9C%D7%99%D7%9D_%D7%91%D7%90%D7%93%D7%95%D7%9D.jpg/960px-BAKU_AT_NIGHT_.RED_TOWERS.%D7%91%D7%90%D7%A7%D7%95_%D7%91%D7%9C%D7%99%D7%9C%D7%94_%D7%9E%D7%92%D7%93%D7%9C%D7%99%D7%9D_%D7%91%D7%90%D7%93%D7%95%D7%9D.jpg",
+          "file": "htl-flame-view-residence.jpg",
+          "alt": "Flame Towers lit up at night",
+          "credit": "Avisadehh, CC0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:BAKU_AT_NIGHT_.RED_TOWERS.%D7%91%D7%90%D7%A7%D7%95_%D7%91%D7%9C%D7%99%D7%9C%D7%94_%D7%9E%D7%92%D7%93%D7%9C%D7%99%D7%9D_%D7%91%D7%90%D7%93%D7%95%D7%9D.jpg"
+        }
+      ]
+    },
+    {
+      "id": "htl-port-baku-lofts",
+      "name": "Port Baku Lofts",
+      "neighborhood": "Port Baku",
+      "description": "Loft-style rooms in the Port Baku district, close to the seafront, shopping and the metro.",
+      "price_per_person_per_night": "95.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Port_Baku.jpg/960px-Port_Baku.jpg",
+          "file": "htl-port-baku-lofts.jpg",
+          "alt": "Port Baku district",
+          "credit": "Vita86, CC BY-SA 3.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Port_Baku.jpg"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-old-city-walking-tour",
+      "name": "Old City walking tour",
+      "description": "Guided walk through İçərişəhər: the Maiden Tower, the Palace of the Shirvanshahs, old caravanserais and hidden courtyards.",
+      "duration": "3 hours",
+      "price_per_person": "25.00",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Baku_Maiden_Tower.jpg",
+          "file": "act-old-city-walking-tour.jpg",
+          "alt": "Maiden Tower, Baku",
+          "credit": "Derek Jones, CC BY-SA 2.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Baku_Maiden_Tower.jpg"
+        }
+      ]
+    },
+    {
+      "id": "act-gobustan-mud-volcanoes",
+      "name": "Gobustan & mud volcanoes day trip",
+      "description": "Day trip to Gobustan National Park to see ancient rock carvings and the bubbling mud volcanoes nearby.",
+      "duration": "7 hours",
+      "price_per_person": "95.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Gobustan_mud_volcanoes_08.jpg/960px-Gobustan_mud_volcanoes_08.jpg",
+          "file": "act-gobustan-mud-volcanoes.jpg",
+          "alt": "Mud volcanoes at Gobustan",
+          "credit": "Bernard Gagnon, CC BY 4.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Gobustan_mud_volcanoes_08.jpg"
+        }
+      ]
+    },
+    {
+      "id": "act-ateshgah-yanar-dag",
+      "name": "Ateshgah & Yanar Dag evening tour",
+      "description": "Evening tour of the Ateshgah fire temple and Yanar Dag, the hillside where natural gas has burned for centuries.",
+      "duration": "4 hours",
+      "price_per_person": "70.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Yanar_Dag%2C_Baku%2C_Azerbaiy%C3%A1n%2C_2016-09-27%2C_DD_03.jpg/960px-Yanar_Dag%2C_Baku%2C_Azerbaiy%C3%A1n%2C_2016-09-27%2C_DD_03.jpg",
+          "file": "act-ateshgah-yanar-dag.jpg",
+          "alt": "Flames at Yanar Dag",
+          "credit": "Diego Delso, CC BY-SA 4.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Yanar_Dag,_Baku,_Azerbaiy%C3%A1n,_2016-09-27,_DD_03.jpg"
+        }
+      ]
+    },
+    {
+      "id": "act-boulevard-boat-ride",
+      "name": "Baku Boulevard boat ride",
+      "description": "Short cruise on the Bay of Baku with views of the Boulevard, the Old City walls and the Flame Towers.",
+      "duration": "40 minutes",
+      "price_per_person": "15.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Pleasure_boat_in_the_bay_of_Baku%2C_Azerbaijan.jpg/960px-Pleasure_boat_in_the_bay_of_Baku%2C_Azerbaijan.jpg",
+          "file": "act-boulevard-boat-ride.jpg",
+          "alt": "Pleasure boat in the Bay of Baku",
+          "credit": "AlixSaz, CC BY-SA 4.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Pleasure_boat_in_the_bay_of_Baku,_Azerbaijan.jpg"
+        }
+      ]
+    },
+    {
+      "id": "act-heydar-aliyev-center",
+      "name": "Heydar Aliyev Center visit",
+      "description": "Entry to the Zaha Hadid-designed cultural center, with its flowing architecture and changing exhibitions.",
+      "duration": "2 hours",
+      "price_per_person": "20.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/HEYDAR_ALIYEV_CENTER_INDOORS.%D7%97%D7%9C%D7%9C_%D7%A4%D7%A0%D7%99%D7%9E%D7%99_%D7%9E%D7%95%D7%93%D7%A8%D7%A0%D7%99_%D7%91%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%99%D7%99%D7%93%D7%A8_%D7%90%D7%9C%D7%99%D7%99%D7%91.jpg/960px-HEYDAR_ALIYEV_CENTER_INDOORS.%D7%97%D7%9C%D7%9C_%D7%A4%D7%A0%D7%99%D7%9E%D7%99_%D7%9E%D7%95%D7%93%D7%A8%D7%A0%D7%99_%D7%91%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%99%D7%99%D7%93%D7%A8_%D7%90%D7%9C%D7%99%D7%99%D7%91.jpg",
+          "file": "act-heydar-aliyev-center.jpg",
+          "alt": "Interior of the Heydar Aliyev Center",
+          "credit": "Avisadehh, CC0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:HEYDAR_ALIYEV_CENTER_INDOORS.%D7%97%D7%9C%D7%9C_%D7%A4%D7%A0%D7%99%D7%9E%D7%99_%D7%9E%D7%95%D7%93%D7%A8%D7%A0%D7%99_%D7%91%D7%9E%D7%A8%D7%9B%D7%96_%D7%94%D7%99%D7%99%D7%93%D7%A8_%D7%90%D7%9C%D7%99%D7%99%D7%91.jpg"
+        }
+      ]
+    },
+    {
+      "id": "act-cooking-class",
+      "name": "Azerbaijani cooking class",
+      "description": "Hands-on class with a local cook: prepare plov, dolma and pakhlava, then share the meal together.",
+      "duration": "3 hours",
+      "price_per_person": "65.00",
+      "photos": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Azerbaijani_plov.JPG/960px-Azerbaijani_plov.JPG",
+          "file": "act-cooking-class.jpg",
+          "alt": "Azerbaijani plov",
+          "credit": "Urek Meniashvili, CC BY-SA 3.0, Wikimedia Commons",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Azerbaijani_plov.JPG"
+        }
+      ]
+    }
+  ]
+}

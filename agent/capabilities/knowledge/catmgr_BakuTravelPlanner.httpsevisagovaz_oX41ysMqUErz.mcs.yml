@@ -1,0 +1,7 @@
+mcs.metadata:
+  componentName: https://evisa.gov.az
+  description: "Official Republic of Azerbaijan e-visa portal (ASAN Visa): visa requirements, e-visa application, fees and processing times for visitors to Azerbaijan."
+kind: KnowledgeSourceConfiguration
+source:
+  kind: WebsiteKnowledgeSource
+  siteUrl: "https://evisa.gov.az"
